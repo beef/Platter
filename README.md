@@ -1,6 +1,6 @@
 #  Platter
 
-Platter is a starting point for many web projects at [Beef](http://www.wearebeef.co.uk). It is a combination of lots of work by many people, compiled, put together and some parts written/re-written by [Craig Coles](http://www.craigcoles.uk).
+Platter is a starting point for many web projects at [Beef](http://www.wearebeef.co.uk). It is a combination of lots of work by many people, compiled, put together and some parts written/re-written by [Craig Coles](http://www.craigcoles.co.uk).
 
 ###  Inspiration / Starting Points 
 
