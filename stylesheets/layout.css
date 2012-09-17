@@ -1,0 +1,44 @@
+/*
+  Beefplatter ~ Layout CSS.
+
+  
+  DEV NOTES
+
+  	+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu leo quis tortor facilisis pharetra.
+  	+	Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec tellus neque.
+  	+	Vestibulum sit amet velit diam. Maecenas eu eleifend nunc. Ut fringilla metus vitae nulla mollis id viverra augue feugiat.
+
+*/
+
+/* `Body
+----------------------------------------------------------------------------------------------------*/
+body {}
+body.home {}
+body.uk, body.us, body.au {}
+body#uk, body#us, body#au {}
+
+/* `Wrapper / Container
+----------------------------------------------------------------------------------------------------*/
+.wrapper {}
+  
+/* `Columns / Structure (if needed)
+----------------------------------------------------------------------------------------------------*/
+
+/* `Header
+----------------------------------------------------------------------------------------------------*/
+header {}
+header.site-header {}
+header.site-header p.site-title {}
+
+/* `Main Content
+----------------------------------------------------------------------------------------------------*/
+.content {}
+
+/* `Sidebar
+----------------------------------------------------------------------------------------------------*/
+
+/* `Footer
+----------------------------------------------------------------------------------------------------*/
+footer {}
+footer.site-footer {}
+footer.base-footer {}

@@ -1,0 +1,63 @@
+/*
+  Beefplatter ~ Module CSS.
+
+  
+  DEV NOTES
+
+  	+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu leo quis tortor facilisis pharetra.
+  	+	Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec tellus neque.
+  	+	Vestibulum sit amet velit diam. Maecenas eu eleifend nunc. Ut fringilla metus vitae nulla mollis id viverra augue feugiat.
+
+*/
+
+/* `Cookie Module
+----------------------------------------------------------------------------------------------------*/
+.cookie-message {}
+.cookie-wrap {}
+
+.no-js .cookie-message.hidden {}
+ 
+/* `Main Navigation Module
+----------------------------------------------------------------------------------------------------*/
+ul.main-nav {}
+ul.main-nav li {}
+ul.main-nav li a {}
+  
+ul.main-nav li ul {}
+
+/* `Site Navigation Module
+----------------------------------------------------------------------------------------------------*/
+ul.site-nav {}
+ul.site-nav li {}
+ul.site-nav li a {}
+
+/* `Site Navigation Module
+----------------------------------------------------------------------------------------------------*/
+ul.country-dropdown {}
+ul.country-dropdown li {}
+ul.country-dropdown li.nav-uk, ul.country-dropdown li.nav-us, ul.country-dropdown li.nav-au{}
+ul.country-dropdown li a {}
+
+/* `Carousel Module
+----------------------------------------------------------------------------------------------------*/
+.home-carousel {}
+.home-carousel article {}
+.home-carousel article .slide-content {}
+.home-carousel article .slide-content img {}
+.home-carousel article .slide-content h1 {}
+.home-carousel article .slide-content p {}
+.home-carousel article .slide-content a {}
+  
+.flex-control-nav, .flex-control-paging {}
+.flex-control-nav li, .flex-control-paging li {}
+.flex-control-nav li a, .flex-control-paging li a {}
+
+/* `Country-Overlay Module
+----------------------------------------------------------------------------------------------------*/
+.country-overlay {}
+.country-overlay p {}
+.country-overlay a {}
+  
+/* `FancyBox Module
+----------------------------------------------------------------------------------------------------*/
+@import url 'fancybox.css';
