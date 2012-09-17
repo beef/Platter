@@ -12,7 +12,7 @@
 /* `Body
 ----------------------------------------------------------------------------------------------------*/
   body {
-    font-size: 100%;
+    font-size: 62.5%;
     margin: 0;
     min-width: 960px; 
     padding: 0;
@@ -32,16 +32,18 @@
 
 /* `Paragraphs
 ----------------------------------------------------------------------------------------------------*/
-  h1, h2, h3, h4 {
+  h1, h2, h3, h4, h5, h6 {
     margin: 1em 0 .5em;
     line-height: 1.25;
     font-weight: bold;
   }
 
-  h1 {font-size: 2em;}
-  h2 {font-size: 1.5em;}
-  h3 {font-size: 1.2em;}
-  h4 {font-size: 1em;}
+  h1 {font-size: 3em;}
+  h2 {font-size: 2.5em;}
+  h3 {font-size: 2.167em;}
+  h4 {font-size: 1.667em;}
+  h5 {font-size: 1.167em;}
+  h6 {font-size: 1em;}
 
   ul, ol {
     margin: 1em 0;

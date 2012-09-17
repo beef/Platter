@@ -10,54 +10,33 @@
 
 */
 
-/* `Cookie Module
+/* `Global Modules
 ----------------------------------------------------------------------------------------------------*/
-.cookie-message {}
-.cookie-wrap {}
 
-.no-js .cookie-message.hidden {}
+  /* `Cookie Module */
+  .cookie-message {}
+  .cookie-wrap {}
+
+  .no-js .cookie-message.hidden {}
  
-/* `Main Navigation Module
-----------------------------------------------------------------------------------------------------*/
-ul.main-nav {}
-ul.main-nav li {}
-ul.main-nav li a {}
+  /* `Main Navigation Module */
+  ul.main-nav {}
+  ul.main-nav li {}
+  ul.main-nav li a {}
   
-ul.main-nav li ul {}
+  ul.main-nav li ul {}
 
-/* `Site Navigation Module
-----------------------------------------------------------------------------------------------------*/
-ul.site-nav {}
-ul.site-nav li {}
-ul.site-nav li a {}
+  /* `Site Navigation Module */
+  ul.site-nav {}
+  ul.site-nav li {}
+  ul.site-nav li a {}
 
-/* `Site Navigation Module
+/* `Site Specific Modules
 ----------------------------------------------------------------------------------------------------*/
-ul.country-dropdown {}
-ul.country-dropdown li {}
-ul.country-dropdown li.nav-uk, ul.country-dropdown li.nav-us, ul.country-dropdown li.nav-au{}
-ul.country-dropdown li a {}
 
-/* `Carousel Module
-----------------------------------------------------------------------------------------------------*/
-.home-carousel {}
-.home-carousel article {}
-.home-carousel article .slide-content {}
-.home-carousel article .slide-content img {}
-.home-carousel article .slide-content h1 {}
-.home-carousel article .slide-content p {}
-.home-carousel article .slide-content a {}
+  /* `Carousel Module */
+
+  /* `Country-Overlay Module */
   
-.flex-control-nav, .flex-control-paging {}
-.flex-control-nav li, .flex-control-paging li {}
-.flex-control-nav li a, .flex-control-paging li a {}
-
-/* `Country-Overlay Module
-----------------------------------------------------------------------------------------------------*/
-.country-overlay {}
-.country-overlay p {}
-.country-overlay a {}
-  
-/* `FancyBox Module
-----------------------------------------------------------------------------------------------------*/
-@import url 'fancybox.css';
+  /* `FancyBox Module */
+  @import url 'fancybox.css';
