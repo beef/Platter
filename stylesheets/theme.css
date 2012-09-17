@@ -38,3 +38,13 @@ header.site-header {}
 footer {}
 footer.site-footer {}
 footer.base-footer {}
+
+/* `Image Replacment
+----------------------------------------------------------------------------------------------------*/
+h1.logo {
+  overflow: hidden;
+  text-align: left;
+  display: block;
+  line-height:0;
+  text-indent: -1000em;
+}
