@@ -1,19 +1,20 @@
-// -------------- APPLICATION.JS --------------
-// Aplication wide javascript
+/* `Application JS
+----------------------------------------------------------------------------------------------------*/
 
-// -------------- CUFON --------------
+/* `Cufon */
 // Cufon.replace('', {
 //   hover: 'true',
 //   fontFamily: ''
 // });
 
-// -------------- SWFOBJECT --------------
+
+/* `SWFObject */
 // var flashvars = {};
 // var params = {};
 // var attributes = {};
 // swfobject.embedSWF("/flash/", "flash-anni", "420", "90", "9.0.0", flashvars, params, attributes);
 
-// -------------- JQUERY START --------------
+/* `jQuery Start */
 $(document).ready(function () {
 
 // STYLING FIX'S
@@ -21,10 +22,10 @@ $(document).ready(function () {
 
 }); //eo: Document Ready
 
-// -------------- COMMON FUNCTIONS/TOOLS/PLUGINS --------------
+/* `Common Functions / Tools / Plugins
+----------------------------------------------------------------------------------------------------*/
 
-// SLIDES.JS SLIDE SHOW
-
+/* `Slides.js Slide Show */
 // $(function(){
 //   $('.hero-panel').slides({
 //   preload: true,
@@ -38,9 +39,7 @@ $(document).ready(function () {
 //   $('.js-needed').hide();
 // });
 
-
-
-// ADDING BODY IMAGES
+/* `Adding body images */
 // $("#body a.lightbox").each(function(){
 //   $(this).append('<span class="overlay">&nbsp;</span>');
 //  });
@@ -51,7 +50,7 @@ $(document).ready(function () {
 //   image.after('<span class="zoom">&nbsp;</span>');
 // });
 
-// FANCYBOX
+/* `Fancybox */
 // $('').fancybox({
 //   'padding'        : 10,
 //   'autoScale'      : true,
@@ -64,7 +63,7 @@ $(document).ready(function () {
 //   'titlePosition' : 'over'
 // });
 
-// JCAROUSEL LITE 
+/* `JCarousel Lite */
 // $(".component.gallery.single.wide .carousel").each(function(index, gallery) {
 //   gallery = $(gallery);
 //   if (gallery.find('li').length > 3) {
@@ -81,5 +80,5 @@ $(document).ready(function () {
 //   }
 // });
 
-// FLASH MESSAGES
+/* `Flash Messages */
 // $('#flash').delay(4000).slideUp(400);
