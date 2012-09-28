@@ -10,6 +10,7 @@
   Creative Director: Benji Hostler
   Technical Director: Tom Burton
   Development Director: Steve England
+  Developer: Jordan Elver
   UI Developr: James Ede
   Designer: Richard Windsor
   Front End Developer: Liam Richardson
