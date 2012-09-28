@@ -2,22 +2,32 @@
 /* humanstxt.org */
 
 /* TEAM */
+
   BEEF
   Site: http://www.wearebeef.co.uk 
-  Twitter:@wearebeef 
+  Twitter: @wearebeef
   Location: Bristol, UK
-  
+
   Creative Director: Benji Hostler
+
   Technical Director: Tom Burton
+
   Development Director: Steve England
+
   Developer: Jordan Elver
-  UI Developr: James Ede
+  Web: http://jordanelver.co.uk
+  Twitter: @jordelver
+
   Designer: Richard Windsor
+
   Front End Developer: Liam Richardson
-  Junior Web Develoepr: Craig Coles
-  
+  Twitter: @discoliam
+
+  Junior Web Developer: Craig Coles
+  Twitter: @craigrcoles
 
 /* SITE */
+
   Standards: HTML5, CSS3
   Components: Ruby on Rails, Modernizr, jQuery
   Software: Noodall, TinyMCE, Slide.js, Twitter.js 
