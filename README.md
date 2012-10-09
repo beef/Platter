@@ -13,6 +13,7 @@ Platter is a starting point for many web projects at [Beef](http://www.wearebeef
 * [Eric Meyer](http://meyerweb.com/)
 * [Tim Van Damme](http://maxvoltar.com/)
 * [BlueprintCSS](http://www.blueprintcss.org)
+* [Special Moves - Coding Standards](https://github.com/specialmoves/coding-standards-front-end)
 
 ## Usage
 

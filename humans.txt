@@ -21,9 +21,11 @@
   Designer: Richard Windsor
 
   Front End Developer: Liam Richardson
+  Web: http://www.discoliam.com/
   Twitter: @discoliam
 
   Junior Web Developer: Craig Coles
+  Web: http://www.craigcoles.co.uk
   Twitter: @craigrcoles
 
 /* SITE */

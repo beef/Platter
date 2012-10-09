@@ -1,0 +1,128 @@
+ /*
+   Platter
+   
+   DEV NOTES
+   + Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu leo quis tortor facilisis pharetra.
+     + Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu leo quis tortor facilisis pharetra.
+   + Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec tellus neque.
+   + Vestibulum sit amet velit diam. Maecenas eu eleifend nunc. Ut fringilla metus vitae nulla mollis id viverra augue feugiat.
+ */
+ 
+ $white:#fff;
+ $black:#4c4c4c;
+ $blue:#0000cc;
+ $purple:#551a8b;
+ $green:#149900;
+ $orange:#ffaa00;
+ $light-grey:#ddd;
+ $code-light-red:#ff0000;
+ $code-dark-red:#a31515;
+ $code-blue:#0000ff;
+
+ @mixin list_style_none {
+   background: none;
+   padding-left: 0;
+   list-style-type: none;
+   list-style-position: outside;
+ }
+
+ /*
+ * Index:
+ * 
+ * 1. Fonts
+ * 2. Normalise HTML5
+ * 3. Base / Foundation
+ * 4. Layout
+ * 5. Modules
+ * 6. Theme
+ * 7. Shared States
+ * 8. Helper Classes
+ * 9. Media Queries
+ *
+ */
+ 
+  /* ----- 1. Fonts ----- */
+    @import "fonts";
+  
+  /* ----- 2. Normalise HTML5 ----- */
+    @import "normalise";
+    
+  /* ----- 3. Base / Foundation ----- */
+    @import "base";
+  
+  /* ----- 4. Layout ----- */
+    @import "layout";
+    
+  /* ----- 5. Modules ----- */
+    @import "modules";
+    
+  /* ----- 6. Theme ----- */
+    @import "theme";
+  
+  /* ----- 7. Shared States ----- */
+  
+    .is-hidden, [hidden] {
+      display: none;
+      visibility: hidden;
+    }
+    
+    /* hide only visually, but have it available for screenreaders */
+    .is-visually-hidden {
+      border: 0;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+
+    .is-visually-hidden.focusable:active,
+    .is-visually-hidden.focusable:focus {
+      clip: auto;
+      height: auto;
+      margin: 0;
+      overflow: visible;
+      position: static;
+      width: auto;
+    }
+
+    /* hide visually and from screenreaders, but maintain layout */
+    .is-invisible {
+      visibility: hidden;
+    }
+  
+  /* ----- 8. Helper Classes ----- */
+  
+    .clearfix:after {
+      content: ".";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden;
+    }
+  
+    .image-replacement {
+      overflow: hidden;
+      text-align: left;
+      display: block;
+      line-height:0;
+      text-indent: -1000em;
+    }
+    
+    .inline-block {
+      display: -moz-inline-box;
+      display: inline-block;
+      position: relative;
+    }
+
+    .oldie .inline-block {
+      *display: inline;
+      *zoom: 1;
+    }
+  
+  /* ----- 9. Media Queries ----- */
+    @import "media-queries";
+  
+  
