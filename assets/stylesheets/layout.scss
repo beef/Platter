@@ -1,0 +1,29 @@
+/* ----- Body ----- */
+  body {}
+
+/* ----- Container ----- */
+  .container {}
+  
+/* ----- Columns / Structure (if needed) ----- */
+  
+/* ----- Header ----- */
+  header {
+    &.site-header {
+      p {
+        .site-title {}
+      }
+    }
+  }
+
+/* ----- Main Content ----- */
+  .content {
+    .component {}
+  }
+
+/* ----- Sidebar ----- */
+
+/* ----- Footer ----- */
+  footer {
+    &.site-footer {}
+    &.base-footer {}
+  }
