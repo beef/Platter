@@ -1,10 +1,11 @@
 #  Platter
 
-Platter is a starting point for many web projects at [Beef](http://www.wearebeef.co.uk). It is a combination of lots of work by many people, compiled, put together and some parts written/re-written by [Craig Coles](http://www.craigcoles.co.uk).
+Platter is a redeveloped/enhanced version of [Beefplate](https://github.com/discoliam/beefplate). Platter is a starting point for many web projects at [Beef](http://www.wearebeef.co.uk). It is a combination of lots of work by many people, compiled, put together and some parts written/re-written by [Craig Coles](http://www.craigcoles.co.uk).
 
 ###  Inspiration / Starting Points 
 
 * [SMACSS](http://smacss.com/)
+* [Special Moves - Coding Standards](https://github.com/specialmoves/coding-standards-front-end)
 * [normalize.css](http://necolas.github.com/normalize.css/)
 * [HTML5 Boilerplate](http://html5boilerplate.com)
 * [Starkers](http://starkerstheme.com)
@@ -13,7 +14,6 @@ Platter is a starting point for many web projects at [Beef](http://www.wearebeef
 * [Eric Meyer](http://meyerweb.com/)
 * [Tim Van Damme](http://maxvoltar.com/)
 * [BlueprintCSS](http://www.blueprintcss.org)
-* [Special Moves - Coding Standards](https://github.com/specialmoves/coding-standards-front-end)
 
 ## Usage
 
