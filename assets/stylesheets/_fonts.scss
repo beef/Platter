@@ -1,5 +1,5 @@
 /* -----  Base Fonts ----- */
-  body, textarea, input {
+  html, body, textarea, input {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 62.5%;
     word-spacing:2px;
@@ -32,86 +32,37 @@
   h4 {font-size: 1.667em;}
   h5 {font-size: 1.167em;}
   h6 {font-size: 1em;}
-  
-  /* 9px */
-  {font-size:0.9em;}
 
-  /* 10px */ 
-  {font-size:1.0em;}
-
-  /* 11px */
-  {font-size:1.0em;}
-
-  /* 12px */
-  {font-size:1.2em;}
-
-  /* 13px */
-  {font-size:1.3em;}
-
-  /* 14px */
-  {font-size:1.4em;}
-
-  /* 15px */
-  {font-size:1.5em;}
-
-  /* 16px */
-  {font-size:1.6em;}
-
-  /* 17px */
-  {font-size:1.7em;}
-
-  /* 18px */
-  {font-size:1.8em;}
-
-  /* 19px */
-  {font-size:1.9em;}
-
-  /* 20px */
-  {font-size:2.0em;}
-
-  /* 21px */
-  {font-size:2.1em;}
-
-  /* 22px */
-  {font-size:2.2em;}
-
-  /* 23px */
-  {font-size:2.3em;}
-
-  /* 24px */
-  {font-size:2.4em;}
-
-  /* 30px */
-  {font-size:3em;}
-
-  /* 36px */
-  {font-size:3.6em;}
+  // Use the Font-size mixin
+  p {
+    @include font-size(13);
+  }
   
 /* -----  Font Styling ----- */ 
 
   /* Bold */
-  {font-weight: bold;}
+  //{font-weight: bold;}
 
   /* Italic */
-  {font-style: italic;}
+  //{font-style: italic;}
 
   /* Underline */
-  {text-decoration: underline;}
+  //{text-decoration: underline;}
 
   /* Normal */
-  {font-weight: normal !important; font-style: normal !important;}
+  //{font-weight: normal !important; font-style: normal !important;}
 
-  {font-weight: normal !important;}
+  //{font-weight: normal !important;}
 
-  {font-style: normal !important;}
+  //{font-style: normal !important;}
   
 /* -----  Line Height ----- */
-  {line-height: ;}
+  //{line-height: ;}
 
 /* -----  Letter Spacing ----- */
-  {letter-spacing: ;}
+  //{letter-spacing: ;}
 
 /* -----  Word Spacing ----- */
-  {word-spacing: ;}
+  //{word-spacing: ;}
 
 
