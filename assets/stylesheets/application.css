@@ -29,7 +29,7 @@ a:active, a:hover {
 
 h1 {
   font-size: 2em;
-  margin: 0 0 0.67em 0; }
+  margin: 0 0 .67em 0; }
 
 abbr[title] {
   border-bottom: 1px dotted; }
@@ -69,10 +69,10 @@ sub, sup {
   vertical-align: baseline; }
 
 sup {
-  top: -.5em; }
+  top: -0.5em; }
 
 sub {
-  bottom: -.25em; }
+  bottom: -0.25em; }
 
 img {
   border: 0; }
@@ -86,7 +86,7 @@ figure {
 fieldset {
   border: 1px solid silver;
   margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em; }
+  padding: .35em .625em .75em; }
 
 legend {
   border: 0;
