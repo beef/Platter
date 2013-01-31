@@ -1,4 +1,4 @@
-/* Platter */
+/* This is a manifest file that'll be compiled into application.css, which will include all the files listed below. */
 /* normalize.css v2.1.0 | MIT License | git.io/normalize */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
   display: block; }
@@ -148,7 +148,10 @@ h1, h2, h3, h4, h5, h6, p, dl, ol, ul {
   margin-top: 0;
   padding-top: 0; }
 
-/* Site Colours */
+/* Vars */
+/* This is where all vars and mixins are stored for use in all other style sheets */
+/* Typography */
+/* Font familys, sizes and styles */
 /* -----  Base Fonts ----- */
 html, body, textarea, input {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -172,6 +175,8 @@ html, body, textarea, input {
 /* -----  Line Height ----- */
 /* -----  Letter Spacing ----- */
 /* -----  Word Spacing ----- */
+/* Base */
+/* Base styles for html elements  */
 /* ----- Body ----- */
 body {
   background-color: white;
@@ -195,7 +200,8 @@ a img {
 table {
   border-collapse: collapse; }
 
-/* ----- Layout ----- */
+/* Layout */
+/* Main pae layout, collumns, etc etc  */
 /* ----- Body ----- */
 /* ----- Header ----- */
 /* ----- Main Content ----- */
@@ -204,7 +210,8 @@ table {
 /* ----- Custom Page Layouts ----- */
 /* ----- Footer ----- */
 /* ----- Clearfix ----- */
-/* ----- Modules ----- */
+/* Modules */
+/* Modules, components and site elements */
 /* ----- Header ----- */
 /* ----- Main Content ----- */
 /* ----- Supporting Content ----- */
@@ -213,7 +220,8 @@ table {
 /* ----- Components ----- */
 /* ----- Footer ----- */
 /* ----- Clearfix ----- */
-/* ----- Theme ----- */
+/* Typography */
+/* Color and theme styles */
 /* ----- Header ----- */
 /* ----- Main Content ----- */
 /* ----- Supporting Content ----- */
@@ -222,6 +230,8 @@ table {
 /* ----- Components ----- */
 /* ----- Footer ----- */
 /* Image Replacement */
+/* Media Queries */
+/* Media queries for responsive design breakpooints */
 @media print {
   /* Print styles */ }
 @media only screen and (min-width: 480px) {
