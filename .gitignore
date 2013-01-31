@@ -38,3 +38,4 @@ Thumbs.db
 ######################
 public
 .sass-cache
+assets/stylesheets/*.css

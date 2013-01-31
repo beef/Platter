@@ -1,7 +1,7 @@
 /* -----  Base Fonts ----- */
   html, body, textarea, input {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 62.5%;
+    font-size: 100%;
     word-spacing:2px;
   }
 
@@ -26,16 +26,16 @@
 /* -----  Font Sizes ----- */
   
   /* Headings */
-  h1 {font-size: 3em;}
-  h2 {font-size: 2.5em;}
-  h3 {font-size: 2.167em;}
-  h4 {font-size: 1.667em;}
-  h5 {font-size: 1.167em;}
-  h6 {font-size: 1em;}
+  h1 {@include font_size($h1-heading);}
+  h2 {@include font_size($h2-heading);}
+  h3 {@include font_size($h3-heading);}
+  h4 {@include font_size($h4-heading);}
+  h5 {@include font_size($h5-heading);}
+  h6 {@include font_size($h6-heading);}
 
   // Use the Font-size mixin
   p {
-    @include font-size(13);
+    @include font-size(14);
   }
   
 /* -----  Font Styling ----- */ 

@@ -7,11 +7,9 @@
 /* ----- Columns / Structure (if needed) ----- */
   
 /* ----- Header ----- */
-  header {
-    &.site-header {
-      p {
-        .site-title {}
-      }
+  &.site-header {
+    p {
+      .site-title {}
     }
   }
 
@@ -23,7 +21,5 @@
 /* ----- Sidebar ----- */
 
 /* ----- Footer ----- */
-  footer {
-    &.site-footer {}
-    &.base-footer {}
-  }
+  &.site-footer {}
+  &.base-footer {}

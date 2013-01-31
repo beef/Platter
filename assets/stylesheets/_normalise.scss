@@ -49,8 +49,10 @@
 
   /* Prevents iOS text size adjust after orientation change, without disabling user zoom. */
   html {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
+    overflow-y: scroll;
   }
 
   /* Sets default font family to sans-serif. */
@@ -68,8 +70,9 @@
 
 /* ----- Typography ----- */
 
-  /* Addresses `h1` font sizes within `section` and `article` in Firefox 4+, Safari 5, and Chrome. */
-  h1 {font-size: 2em;}
+  blockquote, q {quotes:none;}
+
+  address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal;}
 
   /* Addresses styling not present in IE 8/9, Safari 5, and Chrome. */
   abbr[title] {border-bottom: 1px dotted;}
@@ -84,7 +87,7 @@
   mark {background: #ff0; color: #000;}
 
   /* Corrects font family set oddly in Safari 5 and Chrome. */
-  code, kbd, pre, samp {font-family: monospace, serif; font-size: 1em;}
+  code, kbd, pre, samp { font-family: monospace, monospace; _font-family: 'courier new', monospace; font-size: 1em; }
 
   /* Improves readability of pre-formatted text in all browsers. */
   pre {white-space: pre; white-space: pre-wrap; word-wrap: break-word;}
@@ -93,7 +96,7 @@
   q {quotes: "\201C" "\201D" "\2018" "\2019";}
 
   /* Addresses inconsistent and variable font size in all browsers. */
-  small {font-size: 80%;}
+  small {font-size: 85%;}
 
   /* Prevents `sub` and `sup` affecting `line-height` in all browsers. */
   sub, sup {
@@ -109,7 +112,7 @@
 /* ----- Embedded Content ----- */
 
   /* Removes border when inside `a` element in IE 8/9. */
-  img {border: 0;}
+  img {border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle;}
 
   /* Corrects overflow displayed oddly in IE 9. */
   svg:not(:root) {overflow: hidden;}
@@ -121,13 +124,6 @@
 
 /* ----- Forms ----- */
 
-  /* Define consistent border, margin, and padding. */
-  fieldset {
-      border: 1px solid #c0c0c0;
-      margin: 0 2px;
-      padding: 0.35em 0.625em 0.75em;
-  }
-
   /*
    * 1. Corrects color not being inherited in IE 8/9.
    * 2. Remove padding so people aren't caught out if they zero out fieldsets.
@@ -135,6 +131,7 @@
   legend {
       border: 0; /* 1 */
       padding: 0; /* 2 */
+      *margin-left: -7px;
   }
 
   /*
@@ -146,6 +143,8 @@
       font-family: inherit; /* 1 */
       font-size: 100%; /* 2 */
       margin: 0; /* 3 */
+      vertical-align: baseline; 
+      *vertical-align: middle;
   }
 
   /* Addresses Firefox 4+ setting `line-height` on `input` using `!important` in the UA stylesheet. */
@@ -159,7 +158,7 @@
    *    `input` and others.
   */
   button, html input[type="button"], input[type="reset"], input[type="submit"] {
-      -webkit-appearance: button; /* 2 */
+      -webkit-appearance: none; /* 2 */
       cursor: pointer; /* 3 */
   }
 
@@ -216,3 +215,17 @@
       border-collapse: collapse;
       border-spacing: 0;
   }
+
+  caption, th, td {
+    text-align: left;
+    font-weight: normal;
+  }
+/* ----- Other ----- */
+
+  hr{display:block;height:1px;border:0;border-top:1px solid #cccccc;margin:1em 0;padding:0;}
+  ins {background-color:#ff9;color:#000;text-decoration:none;}
+  del {text-decoration: line-through;}
+  /* Position subscript and superscript content without affecting line-height: gist.github.com/413930 */
+  sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+  sup { top: -0.5em; }
+  sub { bottom: -0.25em; }

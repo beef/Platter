@@ -12,16 +12,11 @@
     width: 960px;
   }
 
-  article, aside, figcaption, figure, footer, header, hgroup, nav, section {
-    display: block;
-  }
-
 /* ----- Paragraphs ----- */
   h1, h2, h3, h4, h5, h6 {
     margin: 1em 0 .5em;
     line-height: 1.25;
     font-weight: bold;
-    text-rendering: optimizeLegibility;
   }
 
   ul, ol {
@@ -29,7 +24,7 @@
     padding-left: 40px;
   }
 
-  p {margin: 1em 0;}
+  p {margin-bottom: 1em;}
 
   blockquote {margin: 1em 40px;}
 
@@ -41,11 +36,10 @@
     &:link {color: #0000EE;}
     &:visited {color: #551A8B;}
     &:active {color: #EE0000;}
-    &:hover {}
+    &:hover { outline:none;}
     &:focus {}
+    &:active, &:hover {outline: none;}
   }
-  
-  a:active, a:hover {outline: none;}
 
   a img {border: none;}
 
