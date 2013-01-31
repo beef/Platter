@@ -17,7 +17,32 @@ $link-hover: darken($link, 20%);
   list-style-position: outside;
 }
 
+@mixin border-radius($radius: 4px) {
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
 @mixin font_size($size) {
   font-size: $size + px;
   font-size: ($size/16) + rem;
+}
+
+%image-replacment {
+   overflow: hidden;
+   text-align: left;
+   display: block;
+   line-height:0;
+   text-indent: -1000em;
+}
+
+%clearfix {
+   &:after {
+      content: ".";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden;
+  }
 }

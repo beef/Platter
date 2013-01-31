@@ -1,6 +1,6 @@
 #  Platter
 
-Platter is a redeveloped/enhanced version of [Beefplate](https://github.com/discoliam/beefplate). Platter is a starting point for many web projects at [Beef](http://www.wearebeef.co.uk). It is a combination of lots of work by many people, compiled, put together and some parts written/re-written by [Craig Coles](http://www.craigcoles.co.uk).
+Platter is a redeveloped/enhanced version of [Beefplate](https://github.com/discoliam/beefplate). Platter is a starting point for many web projects at [Beef](http://www.wearebeef.co.uk). It is a combination of lots of work by many people, compiled, put together and some parts written/re-written by [Liam Richardson](http://www.discoliam.com) and [Craig Coles](http://www.craigcoles.co.uk).
 
 ###  Inspiration / Starting Points 
 
@@ -26,6 +26,11 @@ Platter is far from a finished product, but is aimed at being a neutral for the 
 * Remove comments and compress CSS and JS files
 
 ## Holler
+
+### Liam Richardson
+
+* http://www.discoliam.com
+* [@discoliam](http://twitter.com/discoliam)
 
 ### Craig Coles
 
