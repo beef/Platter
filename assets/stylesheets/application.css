@@ -1,60 +1,238 @@
-/*
-Syntax error: Base-level rules cannot contain the parent-selector-referencing character '&'.
-        on line 10 of assets/stylesheets/_layout.scss
-        from line 63 of assets/stylesheets/application.scss
+/* Platter */
+/* normalize.css v2.1.0 | MIT License | git.io/normalize */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block; }
 
-5:   /* Site Colours */
-6:   $white:#fff;
-7:   $black:#4c4c4c;
-8:   $blue:#0000cc;
-9:   $purple:#551a8b;
-10:   $green:#149900;
-11:   $orange:#ffaa00;
-12:   $light-grey:#ddd;
-13:   $code-light-red:#ff0000;
-14:   $code-dark-red:#a31515;
-15:   $code-blue:#0000ff;
+audio, canvas, video {
+  display: inline-block; }
 
-Backtrace:
-assets/stylesheets/_layout.scss:10
-assets/stylesheets/application.scss:63
-/Users/Pinto/.rvm/gems/ruby-1.9.2-p290@platter/gems/sass-3.2.5/lib/sass/selector/comma_sequence.rb:30:in `resolve_parent_refs'
-/Users/Pinto/.rvm/gems/ruby-1.9.2-p290@platter/gems/sass-3.2.5/lib/sass/tree/visitors/cssize.rb:190:in `visit_rule'
-/Users/Pinto/.rvm/gems/ruby-1.9.2-p290@platter/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/Pinto/.rvm/gems/ruby-1.9.2-p290@platter/gems/sass-3.2.5/lib/sass/tree/visitors/cssize.rb:21:in `visit'
-/Users/Pinto/.rvm/gems/ruby-1.9.2-p290@platter/gems/sass-3.2.5/lib/sass/tree/visitors/cssize.rb:133:in `block in visit_import'
-/Users/Pinto/.rvm/gems/ruby-1.9.2-p290@platter/gems/sass-3.2.5/lib/sass/tree/visitors/cssize.rb:133:in `map'
-/Users/Pinto/.rvm/gems/ruby-1.9.2-p290@platter/gems/sass-3.2.5/lib/sass/tree/visitors/cssize.rb:133:in `visit_import'
-/Users/Pinto/.rvm/gems/ruby-1.9.2-p290@platter/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/Pinto/.rvm/gems/ruby-1.9.2-p290@platter/gems/sass-3.2.5/lib/sass/tree/visitors/cssize.rb:21:in `visit'
-/Users/Pinto/.rvm/gems/ruby-1.9.2-p290@platter/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/Pinto/.rvm/gems/ruby-1.9.2-p290@platter/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/Pinto/.rvm/gems/ruby-1.9.2-p290@platter/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/Pinto/.rvm/gems/ruby-1.9.2-p290@platter/gems/sass-3.2.5/lib/sass/tree/visitors/cssize.rb:30:in `block in visit_children'
-/Users/Pinto/.rvm/gems/ruby-1.9.2-p290@platter/gems/sass-3.2.5/lib/sass/tree/visitors/cssize.rb:44:in `with_parent'
-/Users/Pinto/.rvm/gems/ruby-1.9.2-p290@platter/gems/sass-3.2.5/lib/sass/tree/visitors/cssize.rb:29:in `visit_children'
-/Users/Pinto/.rvm/gems/ruby-1.9.2-p290@platter/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/Pinto/.rvm/gems/ruby-1.9.2-p290@platter/gems/sass-3.2.5/lib/sass/tree/visitors/cssize.rb:56:in `visit_root'
-/Users/Pinto/.rvm/gems/ruby-1.9.2-p290@platter/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/Pinto/.rvm/gems/ruby-1.9.2-p290@platter/gems/sass-3.2.5/lib/sass/tree/visitors/cssize.rb:21:in `visit'
-/Users/Pinto/.rvm/gems/ruby-1.9.2-p290@platter/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:24:in `visit'
-/Users/Pinto/.rvm/gems/ruby-1.9.2-p290@platter/gems/sass-3.2.5/lib/sass/tree/visitors/cssize.rb:6:in `visit'
-/Users/Pinto/.rvm/gems/ruby-1.9.2-p290@platter/gems/sass-3.2.5/lib/sass/tree/root_node.rb:22:in `render'
-/Users/Pinto/.rvm/gems/ruby-1.9.2-p290@platter/gems/sass-3.2.5/lib/sass/engine.rb:315:in `_render'
-/Users/Pinto/.rvm/gems/ruby-1.9.2-p290@platter/gems/sass-3.2.5/lib/sass/engine.rb:262:in `render'
-/Users/Pinto/.rvm/gems/ruby-1.9.2-p290@platter/gems/sass-3.2.5/lib/sass/plugin/compiler.rb:341:in `update_stylesheet'
-/Users/Pinto/.rvm/gems/ruby-1.9.2-p290@platter/gems/sass-3.2.5/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
-/Users/Pinto/.rvm/gems/ruby-1.9.2-p290@platter/gems/sass-3.2.5/lib/sass/plugin/compiler.rb:201:in `each'
-/Users/Pinto/.rvm/gems/ruby-1.9.2-p290@platter/gems/sass-3.2.5/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
-/Users/Pinto/.rvm/gems/ruby-1.9.2-p290@platter/gems/sass-3.2.5/lib/sass/plugin/compiler.rb:299:in `block in watch'
-/Users/Pinto/.rvm/gems/ruby-1.9.2-p290@platter/gems/sass-3.2.5/vendor/listen/lib/listen/multi_listener.rb:86:in `call'
-/Users/Pinto/.rvm/gems/ruby-1.9.2-p290@platter/gems/sass-3.2.5/vendor/listen/lib/listen/multi_listener.rb:86:in `on_change'
-/Users/Pinto/.rvm/gems/ruby-1.9.2-p290@platter/gems/sass-3.2.5/vendor/listen/lib/listen/multi_listener.rb:95:in `block in initialize_adapter'
-/Users/Pinto/.rvm/gems/ruby-1.9.2-p290@platter/gems/sass-3.2.5/vendor/listen/lib/listen/adapters/polling.rb:55:in `call'
-/Users/Pinto/.rvm/gems/ruby-1.9.2-p290@platter/gems/sass-3.2.5/vendor/listen/lib/listen/adapters/polling.rb:55:in `poll'
-/Users/Pinto/.rvm/gems/ruby-1.9.2-p290@platter/gems/sass-3.2.5/vendor/listen/lib/listen/adapters/polling.rb:31:in `block in start'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Base-level rules cannot contain the parent-selector-referencing character '&'.\A         on line 10 of assets/stylesheets/_layout.scss\A         from line 63 of assets/stylesheets/application.scss\A \A 5:   /* Site Colours */\A 6:   $white:#fff;\A 7:   $black:#4c4c4c;\A 8:   $blue:#0000cc;\A 9:   $purple:#551a8b;\A 10:   $green:#149900;\A 11:   $orange:#ffaa00;\A 12:   $light-grey:#ddd;\A 13:   $code-light-red:#ff0000;\A 14:   $code-dark-red:#a31515;\A 15:   $code-blue:#0000ff;"; }
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden] {
+  display: none; }
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+body {
+  margin: 0; }
+
+a:focus {
+  outline: thin dotted; }
+
+a:active, a:hover {
+  outline: 0; }
+
+h1 {
+  font-size: 2em;
+  margin: 0 0 0.67em 0; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b, strong {
+  font-weight: 700; }
+
+dfn {
+  font-style: italic; }
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+mark {
+  background: #ff0;
+  color: #000; }
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+pre {
+  white-space: pre-wrap; }
+
+q {
+  quotes: \201C \201D \2018 \2019; }
+
+small {
+  font-size: 80%; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -.5em; }
+
+sub {
+  bottom: -.25em; }
+
+img {
+  border: 0; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+figure {
+  margin: 0; }
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+legend {
+  border: 0;
+  padding: 0; }
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0; }
+
+button, input {
+  line-height: normal; }
+
+button, select {
+  text-transform: none; }
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+button[disabled], html input[disabled] {
+  cursor: default; }
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0; }
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* Aditions by Beef | @craigcoles | @discoliam*/
+blockquote, q {
+  quotes: none; }
+
+address, caption, cite, code, dfn, em, th, var {
+  font-style: normal;
+  font-weight: normal; }
+
+/* Resets by Beef | @craigcoles | @discoliam*/
+h1, h2, h3, h4, h5, h6, p, dl, ol, ul {
+  margin-top: 0;
+  padding-top: 0; }
+
+/* Site Colours */
+/* -----  Base Fonts ----- */
+html, body, textarea, input {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 100%;
+  word-spacing: 2px; }
+
+/* -----  Font Face ----- */
+@font-face {
+  font-family: "Font";
+  src: url("../fonts/Font.eot");
+  src: url("../fonts/Font.eot?#iefix") format("embedded-opentype"), url("../fonts/Font.woff") format("woff"), url("../fonts/Font.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/* -----  Font Sizes ----- */
+/* -----  Font Styling ----- */
+/* Bold */
+/* Italic */
+/* Underline */
+/* Normal */
+/* -----  Line Height ----- */
+/* -----  Letter Spacing ----- */
+/* -----  Word Spacing ----- */
+/* ----- Body ----- */
+body {
+  background-color: white;
+  color: black; }
+
+/* ----- Paragraphs ----- */
+/* ----- Links ----- */
+a {
+  text-decoration: none; }
+  a:link, a:visited, a:active {
+    color: blue; }
+  a:hover {
+    color: #000099; }
+  a:active, a:hover {
+    outline: none; }
+
+a img {
+  border: none; }
+
+/* ----- Table ----- */
+table {
+  border-collapse: collapse; }
+
+/* ----- Layout ----- */
+/* ----- Body ----- */
+/* ----- Header ----- */
+/* ----- Main Content ----- */
+/* ----- Supporting Content ----- */
+/* ----- Supplementary Content ----- */
+/* ----- Custom Page Layouts ----- */
+/* ----- Footer ----- */
+/* ----- Clearfix ----- */
+/* ----- Modules ----- */
+/* ----- Header ----- */
+/* ----- Main Content ----- */
+/* ----- Supporting Content ----- */
+/* ----- Supplementary Content ----- */
+/* ----- Custom Page Modules ----- */
+/* ----- Components ----- */
+/* ----- Footer ----- */
+/* ----- Clearfix ----- */
+/* ----- Theme ----- */
+/* ----- Header ----- */
+/* ----- Main Content ----- */
+/* ----- Supporting Content ----- */
+/* ----- Supplementary Content ----- */
+/* ----- Custom Page Modules ----- */
+/* ----- Components ----- */
+/* ----- Footer ----- */
+/* Image Replacement */
+@media print {
+  /* Print styles */ }
+@media only screen and (min-width: 480px) {
+  /* Will target mobile devices in landscape mode and up */ }
+@media only screen and (min-width: 600px) {
+  /* Targets tablets in portrait mode and up */ }
+@media only screen and (min-width: 768px) {
+  /* Targets tablets in landscape mode and up */ }
+@media only screen and (min-width: 1024px) {
+  /* Targets the desktop view */ }
+@media only screen and (min-width: 1382) {
+  /* Targets the widescreen desktop view */ }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /* Retina displays */ }

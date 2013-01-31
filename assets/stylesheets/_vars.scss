@@ -1,0 +1,22 @@
+/* Site Colours */
+
+// Vars
+$light:#fff;
+$dark:#000;
+
+$link:#00f;
+$link-hover: darken($link, 20%);
+
+
+// Mixins
+@mixin list_style_none {
+  background: none;
+  padding-left: 0;
+  list-style-type: none;
+  list-style-position: outside;
+}
+
+@mixin font_size($size) {
+  font-size: $size + px;
+  font-size: ($size/16) + rem;
+}

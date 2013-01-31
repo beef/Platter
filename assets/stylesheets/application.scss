@@ -1,92 +1,11 @@
- /*
-   Platter
- */
+ /* Platter */
  
-  /* Site Colours */
-  $white:#fff;
-  $black:#4c4c4c;
-  $blue:#0000cc;
-  $purple:#551a8b;
-  $green:#149900;
-  $orange:#ffaa00;
-  $light-grey:#ddd;
-  $code-light-red:#ff0000;
-  $code-dark-red:#a31515;
-  $code-blue:#0000ff;
-
-  /* Font-Sizes (PX) */
-  /* Headings */
-  $h1-heading:40;
-  $h2-heading:36;
-  $h3-heading:32;
-  $h4-heading:28;
-  $h5-heading:22;
-  $h6-heading:18;
-
-  /* Main Navigation Module */
-  @mixin list_style_none {
-    background: none;
-    padding-left: 0;
-    list-style-type: none;
-    list-style-position: outside;
-  }
-
-  @mixin font_size($size) {
-    font-size: $size + px;
-    font-size: ($size/16) + rem;
-  }
-
-  /*
-  * Index:
-  * 
-  * 1. Fonts
-  * 2. Normalise HTML5
-  * 3. Base / Foundation
-  * 4. Layout
-  * 5. Modules
-  * 6. Theme
-  * 7. Helper Classes
-  * 8. Media Queries
-  *
-  */
- 
-  /* ----- 1. Fonts ----- */
-    @import "fonts";
-  
-  /* ----- 2. Normalise HTML5 ----- */
-    //@import "normalise";
-    
-  /* ----- 3. Base / Foundation ----- */
-    @import "base";
-  
-  /* ----- 4. Layout ----- */
-    @import "layout";
-    
-  /* ----- 5. Modules ----- */
-    @import "modules";
-    
-  /* ----- 6. Theme ----- */
-    @import "theme";
-  
-  /* ----- 7. Helper Classes ----- */
-  
-    .clearfix:after {
-      content: ".";
-      display: block;
-      height: 0;
-      clear: both;
-      visibility: hidden;
-    }
-  
-    .image-replacement {
-      overflow: hidden;
-      text-align: left;
-      display: block;
-      line-height:0;
-      text-indent: -1000em;
-    }
-  
-  /* ----- 8. Media Queries ----- */
-    @import "media-queries";
-  
-  
+@import "normalise";
+@import "vars";
+@import "typography";
+@import "base";
+@import "layout";
+@import "modules";
+@import "theme";
+@import "image-replacement";
+@import "media-queries";

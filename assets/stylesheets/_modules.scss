@@ -1,25 +1,27 @@
-/* ----- Site Modules ----- */
+/* ----- Modules ----- */
 
-  /* Cookie Module */
-  .cookie-message {}
-  .cookie-wrap {}
+/* ----- Header ----- */
+// Logo
+// Navigation
 
-  .no-js .cookie-message.hidden {}
+/* ----- Main Content ----- */
 
-  /* Main Navigation Module */
-  ul.main-nav {}
-  ul.main-nav li {}
-  ul.main-nav li a {}
+/* ----- Supporting Content ----- */
 
-    /* Sub Navigation Module */
-    ul.main-nav li ul {}
+/* ----- Supplementary Content ----- */
 
-  /* Site Navigation Module */
-  ul.site-nav {}
-  ul.site-nav li {}
-  ul.site-nav li a {}
-    
-  /* Site Footer Navigation Module */
-  ul.footer-nav {}
-  ul.footer-nav li {}
-  ul.footer-nav li a {}
+/* ----- Custom Page Modules ----- */
+
+/* ----- Components ----- */
+
+/* ----- Footer ----- */
+
+
+/* ----- Clearfix ----- */
+//  :after {
+//     content: ".";
+//     display: block;
+//     height: 0;
+//     clear: both;
+//     visibility: hidden;
+// }

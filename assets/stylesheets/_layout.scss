@@ -1,25 +1,31 @@
-/* ----- Body ----- */
-  body {}
+/* ----- Layout ----- */
 
-/* ----- Container ----- */
-  .container {}
-  
-/* ----- Columns / Structure (if needed) ----- */
-  
+
+/* ----- Body ----- */
+// body {}
+
 /* ----- Header ----- */
-  &.site-header {
-    p {
-      .site-title {}
-    }
-  }
+// header.site-header{}
 
 /* ----- Main Content ----- */
-  .content {
-    .component {}
-  }
+// .main-content{}
 
-/* ----- Sidebar ----- */
+/* ----- Supporting Content ----- */
+// .supporting-content {}
+
+/* ----- Supplementary Content ----- */
+// .supplementary-content {}
+
+/* ----- Custom Page Layouts ----- */
 
 /* ----- Footer ----- */
-  &.site-footer {}
-  &.base-footer {}
+// footer.site-footer{}
+
+/* ----- Clearfix ----- */
+//  :after {
+//     content: ".";
+//     display: block;
+//     height: 0;
+//     clear: both;
+//     visibility: hidden;
+// }
