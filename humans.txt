@@ -12,8 +12,6 @@
 
   Technical Director: Tom Burton
 
-  Development Director: Steve England
-
   Developer: Jordan Elver
   Web: http://jordanelver.co.uk
   Twitter: @jordelver
