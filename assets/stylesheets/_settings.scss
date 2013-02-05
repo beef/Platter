@@ -4,11 +4,16 @@
 // Vars
 // ------------------------------------------------------------
 
+/* Colours */
 $light:#fff;
 $dark:#000;
 
+/* Links */
 $link:#00f;
 $link-hover: darken($link, 20%);
+
+/* Base Font Size */
+$basefont: 16;  
 
 
 // Mixins
@@ -30,5 +35,5 @@ $link-hover: darken($link, 20%);
 
 @mixin font_size($size) {
   font-size: $size + px;
-  font-size: ($size/16) + rem;
+  font-size: ($size/$basefont) + 0rem;
 }

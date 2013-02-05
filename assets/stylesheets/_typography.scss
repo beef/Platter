@@ -6,7 +6,7 @@
 
 html, body, textarea, input {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 100%;
+  font-size : (($basefont * 100) / 16) + 0%;
   word-spacing:2px;
 }
 
@@ -22,7 +22,7 @@ html, body, textarea, input {
     url("../fonts/Font.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
-}
+} 
 
 // Font Size
 // ------------------------------------------------------------
@@ -31,6 +31,16 @@ html, body, textarea, input {
 // p {
 //   @include font_size(14);
 // }
+
+.font-test {
+  h1 {@include font_size(32);}
+  h2 {@include font_size(28);}
+  h3 {@include font_size(24);}
+  h4 {@include font_size(20);}
+  h5 {@include font_size(18);}
+  h6 {@include font_size(16);}
+  p {@include font_size(16);}
+}
   
 // Font Styling
 // ------------------------------------------------------------ 
