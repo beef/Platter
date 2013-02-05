@@ -1,7 +1,9 @@
-/* Vars */
+/* Settings */
 /* This is where all vars and mixins are stored for use in all other style sheets */
 
 // Vars
+// ------------------------------------------------------------
+
 $light:#fff;
 $dark:#000;
 
@@ -10,6 +12,8 @@ $link-hover: darken($link, 20%);
 
 
 // Mixins
+// ------------------------------------------------------------
+
 @mixin list_style_none {
   background: none;
   padding-left: 0;
@@ -17,7 +21,7 @@ $link-hover: darken($link, 20%);
   list-style-position: outside;
 }
 
-@mixin border-radius($radius: 4px) {
+@mixin border_radius($radius: 4px) {
   -moz-border-radius: $radius;
   -webkit-border-radius: $radius;
   -ms-border-radius: $radius;
@@ -27,22 +31,4 @@ $link-hover: darken($link, 20%);
 @mixin font_size($size) {
   font-size: $size + px;
   font-size: ($size/16) + rem;
-}
-
-%image-replacment {
-   overflow: hidden;
-   text-align: left;
-   display: block;
-   line-height:0;
-   text-indent: -1000em;
-}
-
-%clearfix {
-   &:after {
-      content: ".";
-      display: block;
-      height: 0;
-      clear: both;
-      visibility: hidden;
-  }
 }

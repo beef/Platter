@@ -1,15 +1,20 @@
 /* Base */
 /* Base styles for html elements  */
 
-/* ----- Body ----- */
+// Body
+// ------------------------------------------------------------
+
 body {
   background-color: $light;
   color: $dark;
 }
 
-/* ----- Paragraphs ----- */
+// Paragraphs
+// ------------------------------------------------------------
 
-/* ----- Links ----- */
+// Links
+// ------------------------------------------------------------
+
 a {
   text-decoration: none;
   &:link, &:visited, &:active  {color: $link;}
@@ -18,5 +23,7 @@ a {
 }
 a img {border: none;}
 
-/* ----- Table ----- */
+// Table
+// ------------------------------------------------------------
+
 table { border-collapse: collapse; }

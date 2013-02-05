@@ -1,8 +1,10 @@
 /* This is a manifest file that'll be compiled into application.css, which will include all the files listed below. */
  
 // Platter
+// ------------------------------------------------------------
+
 @import "normalise";
-@import "vars";
+@import "settings";
 @import "typography";
 @import "base";
 @import "layout";
@@ -11,3 +13,4 @@
 @import "media-queries";
 
 // Vendor
+// ------------------------------------------------------------

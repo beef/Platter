@@ -2,31 +2,48 @@
 /* Main pae layout, collumns, etc etc  */
 
 
-/* ----- Body ----- */
+// Body
+// ------------------------------------------------------------
+
 // body {}
 
-/* ----- Header ----- */
+// Header
+// ------------------------------------------------------------
+
 // header.site-header{}
 
-/* ----- Main Content ----- */
+// Main Content
+// ------------------------------------------------------------
+
 // .main-content{}
 
-/* ----- Supporting Content ----- */
+// Supporting Content
+// ------------------------------------------------------------
+
 // .supporting-content {}
 
-/* ----- Supplementary Content ----- */
+// Supplementary Content
+// ------------------------------------------------------------
+
 // .supplementary-content {}
 
-/* ----- Custom Page Layouts ----- */
+// Custom Page Layouts
+// ------------------------------------------------------------
 
-/* ----- Footer ----- */
+// Footer
+// ------------------------------------------------------------
+
 // footer.site-footer{}
 
-/* ----- Clearfix ----- */
-//  :after {
-//     content: ".";
-//     display: block;
-//     height: 0;
-//     clear: both;
-//     visibility: hidden;
-// }
+// Clearfix
+// ------------------------------------------------------------
+
+%clearfix {
+   &:after {
+      content: ".";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden;
+  }
+}

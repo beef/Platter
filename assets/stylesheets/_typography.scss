@@ -1,56 +1,67 @@
 /* Typography */
-/* Font familys, sizes and styles */
+/* Font families, sizes and styles */
 
-/* -----  Base Fonts ----- */
-  html, body, textarea, input {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 100%;
-    word-spacing:2px;
-  }
+// Base Fonts
+// ------------------------------------------------------------
+
+html, body, textarea, input {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 100%;
+  word-spacing:2px;
+}
 
 
-/* -----  Font Face ----- */
-  @font-face {
-    font-family: "Font";
-    src: url("../fonts/Font.eot");
-    src: url("../fonts/Font.eot?#iefix") format("embedded-opentype"),
-      url("../fonts/Font.woff") format("woff"),
-      url("../fonts/Font.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-  }
+// Font Face
+// ------------------------------------------------------------
 
-/* -----  Font Sizes ----- */
-// Use the Font-size mixin
-  // p {
-  //   @include font-size(14);
-  // }
+@font-face {
+  font-family: "Font";
+  src: url("../fonts/Font.eot");
+  src: url("../fonts/Font.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Font.woff") format("woff"),
+    url("../fonts/Font.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Font Size
+// ------------------------------------------------------------
+
+// Use the font_size mixin
+// p {
+//   @include font_size(14);
+// }
   
-/* -----  Font Styling ----- */ 
+// Font Styling
+// ------------------------------------------------------------ 
 
-  /* Bold */
-  //{font-weight: bold;}
+/* Bold */
+//{font-weight: bold;}
 
-  /* Italic */
-  //{font-style: italic;}
+/* Italic */
+//{font-style: italic;}
 
-  /* Underline */
-  //{text-decoration: underline;}
+/* Underline */
+//{text-decoration: underline;}
 
-  /* Normal */
-  //{font-weight: normal !important; font-style: normal !important;}
-
-  //{font-weight: normal !important;}
-
-  //{font-style: normal !important;}
+/* Normal */
+//{font-weight: normal !important; font-style: normal !important;}
+//{font-weight: normal !important;}
+//{font-style: normal !important;}
   
-/* -----  Line Height ----- */
-  //{line-height: ;}
+// Line-Height
+// ------------------------------------------------------------
 
-/* -----  Letter Spacing ----- */
-  //{letter-spacing: ;}
+//{line-height: ;}
 
-/* -----  Word Spacing ----- */
-  //{word-spacing: ;}
+// Letter Spacing
+// ------------------------------------------------------------
+
+//{letter-spacing: ;}
+
+// Word Spacing
+// ------------------------------------------------------------
+
+//{word-spacing: ;}
 
 
