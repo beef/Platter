@@ -31,16 +31,6 @@ html, body, textarea, input {
 // p {
 //   @include font_size(14);
 // }
-
-.font-test {
-  h1 {@include font_size(32);}
-  h2 {@include font_size(28);}
-  h3 {@include font_size(24);}
-  h4 {@include font_size(20);}
-  h5 {@include font_size(18);}
-  h6 {@include font_size(16);}
-  p {@include font_size(16);}
-}
   
 // Font Styling
 // ------------------------------------------------------------ 
