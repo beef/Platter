@@ -9,7 +9,7 @@ Platter is far from a finished product, but is aimed at being a neutral start fo
 Simple Bits first, there are some basic static files that get used in all sites.
 
 ### index.html
-This is where we store our basic layout for a html page. We use a lot of our own conventions, and borrow some from HTML5B et al. You no doubt have your own conventions, so feel free to ignore this as you please.
+This is where we store our basic layout for a HTML page. We use a lot of our own conventions, and borrow some from HTML5B et al. You no doubt have your own conventions, so feel free to ignore this as you please.
 
 ### humans.txt
 I'm not 100% sure why we included this, other than I like the [idea of it](http://humanstxt.org/). The Beef standard one is included, so edit / delete as you see fit.
@@ -22,39 +22,39 @@ These are just standard error pages we re-skin for sites that don't get a specif
 We use the Ruby on Rails Asset Pipeline structure for our asset files, as thats what we mostly work in. As you would expect CSS is in ```stylesheets```, JavaScript in ```javascripts```, and Images in ```images```.
 
 #### Stylesheets
-Stylesheets is set up to use [SASS](http://sass-lang.com). ```application.css``` acts as a manifest for all the other stylesheets, and thus no code should be written here, only import rules. We use the import method rather than a require so we can seperate out variables and mixins. Each partial contains comments that indicate what content should be included. 
+Stylesheets is set up to use [SASS](http://sass-lang.com). ```application.css``` acts as a manifest for all the other stylesheets, and thus no code should be written here, only import rules. We use the import method rather than a require so we can separate out variables and mixins. Each partial contains comments that indicate what content should be included. 
 
 ##### _normalize.scss
 
-This is the basic normalize stylesheet, with no aditions. It is included first to normalize (see what they did there...) all borwsers, improving cross browseer developtment.
+This is the basic normalize stylesheet, with no aditions. It is included first to normalize (see what they did there...) all browsers, improving cross browser development.
 
 ##### _settings.scss
 
-A place to store all the variables, mixins and placeholders that you might need, and a good place to import things like Compass styles. Generally anything you don't acctualy want to get rendered there and then.
+A place to store all the variables, mixins and placeholders that you might need, and a good place to import things like Compass styles. Generally anything you don't actually want to get rendered there and then.
 
-##### _typeography.scss
-This is where all the basic site typgraphy goes. Again, shouldn't really be using classes or ID's here. Also a good place to store your ```@font-face``` rules.
+##### _typography.scss
+This is where all the basic site typography goes. Again, shouldn't really be using classes or ID's here. Also a good place to store your ```@font-face``` rules.
 
 ##### _base.scss
 This is a SMACSS esque base file, with basic site styles for any HTML elements you plan on using. Again, no classes or ID's should be used here. I have some idea bout using the first 4 sheets listed to sever a basic ie6 / older mobile stylesheet, but not put it into action yet. 
 
 ##### _site-layout.scss
-Where you start to structure your site. This would include basic layout rules, for the site, and styling for Header, Footer and other consistent site elements. Mostly for content you would find in a layout in rails, or your header/footer/sidebar files in wordpress for example.
+Where you start to structure your site. This would include basic layout rules, for the site, and styling for Header, Footer and other consistent site elements. Mostly for content you would find in a layout in Rails, or your header / footer / sidebar files in Wordpress for example.
 
 ##### _templates.scss
-This is where specific styles for each of the templates or page types on your site. This includes the collumn sturctures, page specific elements and anything that isn't across the board. 
+This is where specific styles for each of the templates or page types on your site. This includes the column structures, page specific elements and anything that isn't across the board. 
 
 ##### _articles.scss 
-We always find that our blog/news styling is massive, so we moved it out into its own stylesheet. If your site dosn't use articles, or it dosn't deviate massivly from your core templates, feel free to ignore and include in your ```_templates.scss```.
+We always find that our blog/news styling is massive, so we moved it out into its own stylesheet. If your site dosn't use articles, or it doesn't deviate massively from your core templates, feel free to ignore and include in your ```_templates.scss```.
 
 ##### _modules.scss
-This is where we keep styles for site wide compoents. Some examples include widgets, cms components, sub navigation etc. Anything that is reuseable on multiple pages.
+This is where we keep styles for site wide components. Some examples include widgets, CMS components, sub navigation etc. Anything that is reusable on multiple pages.
 
 ##### _forms.scss
-Styling for any forms in the site. We try and layout specific styles first, then do any specific modifers bellow in the same file. 
+Styling for any forms in the site. We try and layout specific styles first, then do any specific modifiers bellow in the same file. 
 
 ##### _media-queries.scss 
-We're stull working out how to fully intergrate Responsive Design into our workflow, so for now we've moved media queries out into a seprate file. I suspect these will be moved inline with time, but for now this suits us best. Some basic device specific MQ's are included, but these are just a guide, breakpoints should be based on when the design acctualy breaks.
+We're still working out how to fully integrate Responsive Design into our work flow, so for now we've moved media queries out into a septate file. I suspect these will be moved in-line with time, but for now this suits us best. Some basic device specific MQ's are included, but these are just a guide, breakpoints should be based on when the design actually breaks.
 
 ### Common Tasks
 
