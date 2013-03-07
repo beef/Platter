@@ -1,5 +1,5 @@
-/* Settings */
-/* This is where all vars and mixins are stored for use in all other style sheets */
+// Settings
+// Basic site settings. Variables, mixins, placeholders etc 
 
 // Vars
 // ------------------------------------------------------------
@@ -36,4 +36,25 @@ $basefont: 16;
 @mixin font_size($size) {
   font-size: $size + px;
   font-size: ($size/$basefont) + 0rem;
+}
+
+// Placeholders
+// ------------------------------------------------------------
+
+%clearfix {
+   &:after {
+      content: ".";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden;
+  }
+}
+
+%image-replacement {
+   overflow: hidden;
+   text-align: left;
+   display: block;
+   line-height:0;
+   text-indent: -1000em;
 }

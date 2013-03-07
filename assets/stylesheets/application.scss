@@ -1,16 +1,20 @@
-/* This is a manifest file that'll be compiled into application.css, which will include all the files listed below. */
+// This is a manifest file that'll be compiled into application.css, which will include all the files listed below.
  
 // Platter
 // ------------------------------------------------------------
+// These are the core Platter files for the site.
 
-@import "normalise";
-@import "settings";
-@import "typography";
-@import "base";
-@import "layout";
-@import "modules";
-@import "theme";
-@import "media-queries";
+@import "normalize"; // Normalize the Browsers 
+@import "settings"; // Variables, Mixins etc
+@import "typography"; // Basic site typography 
+@import "base"; // Basic element styles
+@import "site-layout"; // Site wide layouts, header and footer etc
+@import "templates"; // Specific template styles.
+@import "articles"; // Specific articles styles
+@import "modules"; // Site wide components, sub navigation etc
+@import "forms"; // Form styling
+@import "media-queries"; // Responsive Stuff
 
 // Vendor
 // ------------------------------------------------------------
+// Any additional CSS files from plugins etc._modules
