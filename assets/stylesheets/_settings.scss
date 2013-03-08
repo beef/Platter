@@ -12,9 +12,6 @@ $dark:#000;
 $link:#00f;
 $link-hover: darken($link, 20%);
 
-/* Base Font Size */
-$basefont: 16;  
-
 
 // Mixins
 // ------------------------------------------------------------
@@ -33,9 +30,9 @@ $basefont: 16;
   border-radius: $radius;
 }
 
-@mixin font_size($size) {
-  font-size: $size + px;
-  font-size: ($size/$basefont) + 0rem;
+@mixin font-size($sizeValue: 16){
+  font-size: $sizeValue + px;
+  font-size: ($sizeValue / 10) + rem;
 }
 
 // Placeholders

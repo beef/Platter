@@ -6,31 +6,35 @@
 
 html, body, textarea, input {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size : (($basefont * 100) / 16) + 0%;
-  word-spacing:2px;
+  font-size : 62.5%;
 }
 
 
 // Font Face
 // ------------------------------------------------------------
 
-@font-face {
-  font-family: "Font";
-  src: url("../fonts/Font.eot");
-  src: url("../fonts/Font.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/Font.woff") format("woff"),
-    url("../fonts/Font.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-} 
+// @font-face {
+//   font-family: "Font";
+//   src: url("../fonts/Font.eot");
+//   src: url("../fonts/Font.eot?#iefix") format("embedded-opentype"),
+//     url("../fonts/Font.woff") format("woff"),
+//     url("../fonts/Font.ttf") format("truetype");
+//   font-weight: normal;
+//   font-style: normal;
+// } 
 
 // Font Size
 // ------------------------------------------------------------
 
 // Use the font_size mixin
-// p {
-//   @include font_size(14);
-// }
+h1 {@include font_size(28)}
+h2 {@include font_size(24)}
+h3 {@include font_size(20)}
+h4 {@include font_size(18)}
+h5 {@include font_size(16)}
+h6 {@include font_size(14)}
+
+p {@include font_size(14)}
   
 // Font Styling
 // ------------------------------------------------------------ 
