@@ -63,7 +63,7 @@ The following is a set of common tasks that need to be completed for each projec
 * Update the Year and Site Title Keywords in HTML pages (index/404 etc)
 * Update Meta Data
 * Update humans.txt
-* Create custom local version of [Modernizr](http://modernizr.com/) and update path in index.html
+* Create custom local version of [Modernizr](http://modernizr.com/) and update path in ```index.html```.
 * Add Google Analytics account code
 * Update which jQuery version you need, and add a local backup.
 * Update url paths for CSS / JS files (dependent on your SASS implementation, asset pipelines etc)
