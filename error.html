@@ -2,9 +2,11 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>SITE TITLE - The page you were looking for doesn't exist (404)</title> 
+  <title>SITE TITLE - Error Message (XXX)</title> 
     <style>
-      /*Normalise*/
+
+      /* Normalise 
+      ---------------------------------------------------------- */
       article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
       audio,canvas,video{display:inline-block}
       audio:not([controls]){display:none;height:0}
@@ -54,11 +56,12 @@
       #supporting-content p {font-size: 12px;}
       #supporting-content p a{display:inline-block;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;line-height:1;text-decoration:none;margin:0 16px 0 0;padding:8px 13px;}
       form{display:inline-block;position:relative}
-      form input[type=text]{vertical-align:center;background:#fff;color:#9C9C9C;float:left;width:200px;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;border:solid 10px #000!important;-webkit-appearance:textfield;font-size:12px;margin:0;padding:5px}
-      form input[type=submit]{background:none repeat scroll 0 0 #00C05E!important;border:medium none!important;color:#FFF!important;font-size:12px!important;height:24px!important;line-height:1!important;text-align:center!important;margin-top:10px;-moz-border-radius:2px!important;-webkit-border-radius:2px!important;-webkit-appearance:none!important;padding:0 10px!important}
-      form input[type=submit]:hover{background-color:#FECE1F!important;cursor:pointer;color:#000!important}
+      form input[type=text]{vertical-align:center;background:#fff;color:#9C9C9C;float:left;width:200px;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;-webkit-appearance:textfield;font-size:12px;margin:8px 10px 0 0;padding:5px}
+      form input[type=submit]{background:none repeat scroll 0 0;border:medium none!important;font-size:12px!important;height:24px!important;line-height:1!important;text-align:center!important;margin-top:10px;-moz-border-radius:2px!important;-webkit-border-radius:2px!important;-webkit-appearance:none!important;padding:0 10px!important}
+      form input[type=submit]:hover{cursor:pointer;}
 
-      /* Custom */
+      /* Custom 
+      ---------------------------------------------------------- */
       p.logo{
         height: 149px;
         width: 164px;
@@ -66,30 +69,30 @@
       }
 
       /*Background*/
-      body{background: #000}
+      body{background: #fff;}
 
       /*Body*/
-      body, #main-content a:hover, #supporting-content a:hover {color: #fff;}
-      form input[type='submit']:hover{background-color: #fff;}
+      body, #main-content a:hover, #supporting-content a:hover {color: #000;}
+      form input[type='submit']{background-color: #000;}
 
       /*Main*/
-      #main-content a{color: #FECE1F}
-      #supporting-content a{background-color: #FECE1F;}
-      form input[type='submit']{background-color: #FECE1F;color: #fff;}
+      #main-content a{color: #f00}
+      form input[type=text]{border:solid 1px #f00 !important;}
+      form input[type=submit], #supporting-content a{background-color: #f00;color: #fff;}
 
       /*Secondary*/
-      form input[type='text'],#main-content,h1{border-color: #585233;}
-      h1, #supporting-content a{color:#585233;}
-      form input[type='submit']:hover{background-color:#585233;}
+      #main-content,h1{border-color: #0f0;}
+      h1{color:#0f0;}
+      form input[type=submit]:hover, #supporting-content a:hover{background-color:#0f0;}
     </style>
 </head>
 <body>
   <article>
     <p class="logo">SITE TITLE</p>
     <div id="main-content">
-      <h1>500</h1>
-      <p class="heading">We're sorry, but something went wrong.</p>
-      <p class="desc">We've been notified about this issue and we'll take a look at it shortly</p>
+      <h1>XXX</h1>
+      <p class="heading">Error Message</p>
+      <p class="desc">Some Important Information</p>
     </div>
     <div id="supporting-content">
       <p>
