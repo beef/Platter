@@ -3,59 +3,91 @@
 <head>
   <meta charset="utf-8">
   <title>SITE TITLE - The page you were looking for doesn't exist (404)</title> 
-    <style>
- html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video,applet,a,acronym,big,font,strike,tt{border:0;outline:0;font-weight:inherit;font-style:inherit;vertical-align:baseline;font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;font-size:12px;margin:0;padding:0}
+       <style>
 
-    /*STYLE*/
-    #article{width:940px;position:relative;margin:0 auto}
-    p.logo{position:absolute;top:34px;left:0;font-size:48px}
-    #main-content{border-bottom:solid 1px;margin:0 0 20px;padding:298px 0 20px 104px}
-    h1{display:block;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;width:93px;height:45px;font-size:32px;text-align:center;float:left;border:solid 1px;margin:0 20px 0 0;padding:8px 0 0}
-    p.heading{font-size:32px;line-height:1;margin-bottom:9px}
-    p.desc{font-size:12px}
-    p.email-msg{margin-left:115px;margin-top:5px}
-    #supporting-content{padding:0 219px}
-    #supporting-content p,form{float:left;margin-right:20px}
-    #supporting-content p a{display:inline-block;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;line-height:1;text-decoration:none;margin:0 16px 0 0;padding:8px 13px}
-    form{display:inline-block;position:relative}
-    form input[type=text]{display:inline-block;height:28px;vertical-align:middle;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;border:solid 1px;width:200px;padding:0 10px}
-    form input[type=submit]{border:0 none;display:block;font-size:0;height:26px;position:absolute;right:10px;top:2px;width:14px;background-image:url(assets/images/404-search.png);cursor:pointer;color:#fff!important}
+      /* Normalise 
+      ---------------------------------------------------------- */
+      article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
+      audio,canvas,video{display:inline-block}
+      audio:not([controls]){display:none;height:0}
+      [hidden]{display:none}
+      html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+      a:focus{outline:thin dotted}
+      a:active,a:hover{outline:0}
+      h1{font-size:2em;margin:.67em 0}
+      abbr[title]{border-bottom:1px dotted}
+      b,strong{font-weight:700}
+      dfn{font-style:italic}
+      hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}
+      mark{background:#ff0;color:#000}
+      code,kbd,pre,samp{font-family:monospace, serif;font-size:1em}
+      pre{white-space:pre-wrap}
+      q{quotes:\201C \201D \2018 \2019}
+      small{font-size:80%}
+      sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+      sup{top:-.5em}
+      sub{bottom:-.25em}
+      img{border:0}
+      svg:not(:root){overflow:hidden}
+      fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}
+      button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}
+      button,input{line-height:normal}
+      button,select{text-transform:none}
+      button,html input[type=button],/* 1 */
+      input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}
+      button[disabled],html input[disabled]{cursor:default}
+      input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}
+      input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+      input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}
+      textarea{overflow:auto;vertical-align:top}
+      table{border-collapse:collapse;border-spacing:0}
+      body,figure{margin:0}
+      legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+      /*Style*/
+      p.logo{margin: 0 auto;display: block;overflow: hidden;text-align: left;display: block;line-height:0;text-indent: -1000em;}
+      article{width:90%;position:relative;margin:0 auto}
+      #main-content{border-bottom:solid 1px;margin:0 auto 20px auto;padding:20px 0 20px 0;text-align: center}
+      h1{display:inline-block;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;width:93px;height:45px;font-size:32px;text-align:center;float:none;border:solid 1px;margin:0 20px 20px 0;padding:8px 0 0}
+      p.heading{font-size:32px;line-height:1;margin-bottom:9px}
+      p.desc{font-size:12px}
+      p.email-msg{margin-left:115px;margin-top:5px}
+      #supporting-content{padding:0;text-align: center;}
+      #supporting-content p,form{float:none;margin-right:20px}
+      #supporting-content p {font-size: 12px;}
+      #supporting-content p a{display:inline-block;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;line-height:1;text-decoration:none;margin:0 16px 0 0;padding:8px 13px;}
+      form{display:inline-block;position:relative}
+      form input[type=text]{vertical-align:center;background:#fff;color:#9C9C9C;float:left;width:200px;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;-webkit-appearance:textfield;font-size:12px;margin:8px 10px 0 0;padding:5px}
+      form input[type=submit]{background:none repeat scroll 0 0;border:medium none!important;font-size:12px!important;height:24px!important;line-height:1!important;text-align:center!important;margin-top:10px;-moz-border-radius:2px!important;-webkit-border-radius:2px!important;-webkit-appearance:none!important;padding:0 10px!important}
+      form input[type=submit]:hover{cursor:pointer;}
 
-    /*LOGO*/
-    p.logo{
-      overflow: hidden;
-      text-align: left;
-      display: block;
-      line-height:0;
-      text-indent: -1000em;
-      height: 116px;
-      width: 260px;
-      background: url(/images/logo.gif) no-repeat 0 0;
-    }
+      /* Custom 
+      ---------------------------------------------------------- */
+      p.logo{
+        height: 149px;
+        width: 164px;
+        background: url(/images/logo.gif) no-repeat 0 0;
+      }
 
-    /*COLOUR*/
+      /*Background*/
+      body{background: #fff;}
 
-    /*Background*/
-    body{background: #ffffff}
+      /*Body*/
+      body, #main-content a:hover, #supporting-content a:hover {color: #000;}
+      form input[type='submit']{background-color: #000;}
 
-    /*Body*/
-    body, #main-content a:hover {color: #686869;}
-    form input[type='submit']:hover{background-color: #686869;}
+      /*Main*/
+      #main-content a{color: #f00}
+      form input[type=text]{border:solid 1px #f00 !important;}
+      form input[type=submit], #supporting-content a{background-color: #f00;color: #fff;}
 
-    /*Main*/
-    #main-content a{color: #00457C}
-    #supporting-content a{background-color: #00457C; color: #fff}
-    form input[type='submit']{background-color: #00457C;color: #fff;}
-
-    /*Secondary*/
-    form input[type='text'],#main-content,h1{border-color: #63CEEA;}
-    h1, #supporting-content a:hover{color:#63CEEA;}
-    form input[type='submit']:hover{background-color:#63CEEA;}
-
+      /*Secondary*/
+      #main-content,h1{border-color: #0f0;}
+      h1{color:#0f0;}
+      form input[type=submit]:hover, #supporting-content a:hover{background-color:#0f0;}
     </style>
 </head>
 <body>
-  <div id="article">
+  <article>
     <p class="logo">SITE TITLE</p>
     <div id="main-content">
       <h1>404</h1>
@@ -72,6 +104,6 @@
       <input type="submit" value="Search" name="commit">
       </form>
     </div>
-  </div>
+  </article>
 </body>
 </html>
